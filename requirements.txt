@@ -2,3 +2,4 @@ langchain
 langgraph
 langchain-tavily
 langchain-groq
+langgraph-checkpoint-sqlite

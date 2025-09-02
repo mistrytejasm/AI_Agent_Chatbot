@@ -4,8 +4,6 @@ from langchain_groq import ChatGroq
 from core.models.state import AgentState, Source, SearchResult
 from core.agents.citation_manager import CitationManager
 from datetime import datetime
-
-import uuid
 from dotenv import load_dotenv
 from urllib.parse import urlparse
 
@@ -159,5 +157,4 @@ class SearchAgent:
 
         return sorted(sources, key=lambda x: x.relevance_score, reverse=True)
 
-search_agent = SearchAgent()
 

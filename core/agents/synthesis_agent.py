@@ -84,4 +84,3 @@ class SynthesisAgent:
         response += self.citation_manager.format_sources_list()
         return response
 
-synthesis_agent = SynthesisAgent()
